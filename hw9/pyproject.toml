@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ir-search"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Lebedev <and.a.lebedev@tbank.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+razdel = "^0.5.0"
+pymorphy2 = "^0.9.1"
+requests = "^2.32.3"
+setuptools = "^75.1.0"
+nltk = "^3.9.1"
+gensim = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
